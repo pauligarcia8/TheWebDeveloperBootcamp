@@ -11,18 +11,19 @@
 -SUP/SUB: to put smaller text or numbers on top or under of regular size text  
 ## Semantic Elements  
 It is a good practice to use semantic elements to better structure our content.  
--`<article>`  
--`<aside>`  
--`<details>`  
--`<figcaption>`  
--`<figure>`  
--`<footer>`  
--`<header>`  
--`<main>`  
--`<mark>`  
--`<nav>`  
--`<section>`  
--`<summary>`  
--`<time>`  
-![SemanticElements](https://www.w3schools.com/html/img_sem_elements.gif)
+- `<aside>`  
+- `<article>`  
+- `<details>`  
+- `<figcaption>`  
+- `<figure>`  
+- `<footer>`  
+- `<header>`  
+- `<main>`  
+- `<mark>`  
+- `<nav>`  
+- `<section>`  
+- `<summary>`  
+- `<time>`  
+
+![SemanticElements](Section_5/img_sem_elements.gif)
 
