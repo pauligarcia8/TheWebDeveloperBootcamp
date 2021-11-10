@@ -12,23 +12,27 @@
 `<table>`  
 ----`<thead>`  
 --------`<tr>`  
--------------`<th rowspan ="2">Animal</th>`  
+-------------`<th rowspan ="2">`Animal`</th>`  
+-------------`<th colspan="2">`Height and Weight`<th>`   
 --------`</tr>`  
 ----`</thead>`   
 ----`<tbody>`  
 --------`<tr>`  
 -------------`<td>` Cat `</td>`  
+-------------`<td>` 23-25 and 3kg `</td>`  
 --------`</tr>`  
 `</table>` 
 <table>
         <thead>
             <tr>
                 <th rowspan="2">Animal</th>
+                <th colspan="2">height and weight<th>
             </tr>
         </thead>
         <tbody>
             <tr>
                 <td>Cat</td>
+                <td>23-25 and 3kg</td>
             </tr>
     </tbody>
 </table>   
@@ -47,3 +51,5 @@ We can use `<label></label>` tags to put a text related to the type of input, an
 ### The name attribute:  
 Its a string specifying a name for the input control. This name is submitted along with the control's value when the form data is submitted.
 Consider the name a required attribute (even though it's not). If an input has no name specified, or name is empty, the input's value is not submitted with the form! 
+### Form Validation  
+> When you enter data, the browser and/or the web server will check to see that the data is in the correct format and within the constraints set by the application. Validation done in the browser is called client-side validation, while validation done on the server is called server-side validation. In this chapter we are focusing on client-side validation. In HTML we can use required, min-lenght, max-lenght, pattern, etc.
