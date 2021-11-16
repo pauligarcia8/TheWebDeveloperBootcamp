@@ -1,0 +1,1 @@
+## We create a responsive page using flex box, media queries, and also use hover and focus on buttons
